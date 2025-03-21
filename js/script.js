@@ -4,6 +4,8 @@
 // Created on: Mar 2025
 // This file contains the JS functions for index.html
 
+"use strict"
+
 /**
  * Calculate Triangle Area
  */
@@ -17,7 +19,7 @@ function Calculate() {
   if (isNaN(base) || isNaN(height)) {
     resultDisplay.innerHTML = "Please enter valid numbers for base and height."
     resultDisplay.style.color = "Black"
-    return;
+    return
   }
 
   // Calculate area of triangle: (1/2 * base * height)
